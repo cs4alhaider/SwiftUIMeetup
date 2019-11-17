@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Slide1Example.swift
 //  SwiftUIMeetup
 //
 //  Created by Abdullah Alhaider on 17/11/2019.
@@ -8,14 +8,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Example: View {
+    
+    @ObservedObject var user = User()
+    
     var body: some View {
-        Text("Hello, World!")
+        Text(" ")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Example_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Example()
     }
 }
