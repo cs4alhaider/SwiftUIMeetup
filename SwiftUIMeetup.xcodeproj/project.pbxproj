@@ -21,6 +21,7 @@
 		DD2814F42380ECD3006C92A2 /* SlideRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2814F32380ECD3006C92A2 /* SlideRowView.swift */; };
 		DD2814F72380ED67006C92A2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2814F62380ED67006C92A2 /* HeaderView.swift */; };
 		DD9CBFE72380F0B6006C2945 /* Slides.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CBFE62380F0B6006C2945 /* Slides.swift */; };
+		DDDD2E7A2381B7BA00CFF0B6 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD2E792381B7BA00CFF0B6 /* Test.swift */; };
 		DDE867DD23816C360005C81B /* DataBinding+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE867DC23816C360005C81B /* DataBinding+Example.swift */; };
 		DDE867DF23816CCD0005C81B /* SwiftUICodeStructure+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE867DE23816CCD0005C81B /* SwiftUICodeStructure+Example.swift */; };
 		DDE867E123816D1F0005C81B /* StateAndDataFlow+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE867E023816D1F0005C81B /* StateAndDataFlow+Example.swift */; };
@@ -53,6 +54,7 @@
 		DD2814F32380ECD3006C92A2 /* SlideRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideRowView.swift; sourceTree = "<group>"; };
 		DD2814F62380ED67006C92A2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DD9CBFE62380F0B6006C2945 /* Slides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slides.swift; sourceTree = "<group>"; };
+		DDDD2E792381B7BA00CFF0B6 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		DDE867DC23816C360005C81B /* DataBinding+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataBinding+Example.swift"; sourceTree = "<group>"; };
 		DDE867DE23816CCD0005C81B /* SwiftUICodeStructure+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUICodeStructure+Example.swift"; sourceTree = "<group>"; };
 		DDE867E023816D1F0005C81B /* StateAndDataFlow+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StateAndDataFlow+Example.swift"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				DDE867F0238198C00005C81B /* UIViewControllerRepresentable+Example.swift */,
 				DD1C26DA23819EFE00CBB83D /* UIViewRepresentable+Example.swift */,
 				DD1C26DC2381A21B00CBB83D /* Previewer+Example.swift */,
+				DDDD2E792381B7BA00CFF0B6 /* Test.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				DD2814DA2380C5AA006C92A2 /* SwiftUIMeetup.xcdatamodeld in Sources */,
 				DD2814D52380C5AA006C92A2 /* AppDelegate.swift in Sources */,
 				DDE867E723817F7A0005C81B /* StackFamily+Example.swift in Sources */,
+				DDDD2E7A2381B7BA00CFF0B6 /* Test.swift in Sources */,
 				DD2814EE2380C711006C92A2 /* StartView.swift in Sources */,
 				DD2814D72380C5AA006C92A2 /* SceneDelegate.swift in Sources */,
 				DD1C26DD2381A21B00CBB83D /* Previewer+Example.swift in Sources */,

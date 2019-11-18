@@ -103,6 +103,13 @@ struct SlidesView: View {
                         SlideRowView("Fetching data from rest api")
                     }
                 }
+                
+                Section(header: HeaderView("Get in touch..")) {
+                    NavigationLink(destination: QRView()) {
+                        // Order is important
+                        SlideRowView(self.slides.getInTouch.title)
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI")
         }
@@ -112,5 +119,20 @@ struct SlidesView: View {
 struct SlidesView_Previews: PreviewProvider {
     static var previews: some View {
         SlidesView()
+    }
+}
+
+
+struct QRView: View {
+    var body: some View {
+        VStack {
+            Text("Scan me ..")
+                .font(.system(size: 50, weight: .bold, design: .monospaced))
+                .padding(.top, 30)
+            Image("QR")
+                .resizable()
+                .scaledToFit()
+                .padding(50)
+        }
     }
 }

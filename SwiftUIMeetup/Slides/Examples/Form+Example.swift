@@ -18,7 +18,7 @@ struct Form_Example: View {
                     TextField("Your name", text: $name)
                 }
                 
-                Section {
+                Section(header: Text("Test")) {
                     Button("Submit") {
                         // your logic here
                     }

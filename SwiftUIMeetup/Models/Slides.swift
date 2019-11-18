@@ -88,4 +88,9 @@ A State instance isn’t the value itself; it’s a means of reading and mutatin
     • `UIViewRepresentable`
 """, imagesNames: ["UIViewRepresentable"], imagesHeightMultiplier: 0.9)
     
+    
+    // MARK: Working with Button
+    @Published var getInTouch : Slide = .init("Get in touch", subtitle: """
+        Scan me 😄
+""", imagesNames: ["QR"], imagesHeightMultiplier: 0.9)
 }

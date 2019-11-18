@@ -14,7 +14,7 @@ class MyViewController: UIViewController {
         let lable = UILabel()
         lable.text = "Hello World!"
         lable.textAlignment = .center
-        lable.textColor = .black
+        lable.textColor = .blue
         lable.bounds = view.bounds
         lable.center = view.center
         lable.font = .systemFont(ofSize: 30)

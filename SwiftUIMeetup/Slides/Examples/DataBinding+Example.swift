@@ -10,7 +10,15 @@ import SwiftUI
 
 class User: ObservableObject {
     @Published var firstName = ""
-    @Published var lastName = ""
+    @Published var lastName = "" {
+        didSet {
+            myAction()
+        }
+    }
+    
+    func myAction() {
+        
+    }
 }
 
 struct DataBinding_Example: View {
@@ -21,6 +29,10 @@ struct DataBinding_Example: View {
         VStack {
             TextField("First name", text: $user.firstName)
             TextField("Last name", text: $user.lastName)
+            
+            Button(action: user.myAction) {
+                Text("My Button")
+            }
         }
         .padding(.vertical, 20)
     }

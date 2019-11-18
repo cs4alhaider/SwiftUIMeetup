@@ -32,8 +32,6 @@ struct StartView: View {
                 HStack(spacing: 100) {
                     Card(title: "Abdullah Alhaider",
                          url: "@cs4alhaider")
-                    Card(title: "Ibrahim AshShohail",
-                         url: "@IbraSho")
                 }
             }
         }
